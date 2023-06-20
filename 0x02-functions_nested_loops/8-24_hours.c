@@ -1,11 +1,11 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
  * jack_bauer - Check Holberton
  * Description: function prints every minute in one day
  * Return: Nothing
  */
-	void jack_bauer(void)
+void jack_bauer(void)
 {
 	int H, M;
 
@@ -18,7 +18,7 @@
 			_putchar(':');
 			_putchar((M / 10) + '0');
 			_putchar((M % 10) + '0');
-			_putchar('\n')
+			_putchar('\n');
 		}
 	}
 }
